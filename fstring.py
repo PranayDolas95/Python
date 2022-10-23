@@ -1,0 +1,5 @@
+first = input("what is your first name? ")
+last = input("what is your last name? ")
+age = int(input("what is your age? "))
+origin = input("where do you stay? ")
+print("Hello, {} {} your age is {} and you stay in {}".format(last, first, age, origin))
